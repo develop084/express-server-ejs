@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
 
 app.get('/about',(req,res)=>{
   res.render('about',{
-    title: 'this is about page'
+    title: 'this is about master page'
   });
 })
 
